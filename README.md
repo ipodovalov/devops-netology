@@ -3,9 +3,9 @@
 ## Задание 1. Знакомимся с GitLab и Bitbucket
 
 ---
-GitLab - https://gitlab.com/ipodovalov/devops-netology.GitLab
+GitLab - https://gitlab.com/ipodovalov/devops-netology
 
-GitHub - https://github.com/ipodovalov/devops-netology.GitLab
+GitHub - https://github.com/ipodovalov/devops-netology
 
 ---
 
