@@ -1,0 +1,39 @@
+---
+- name: 'Playbook'
+  hosts: nodes
+  become: yes
+
+  tasks:
+    - name: Create directory for ssh-keys
+      file:
+        state: directory
+        mode: 0700
+        dest: /root/.ssh/
+
+    - name: Adding rsa-key in /root/.ssh/
+      copy:
+        src: ~/.ssh/id_rsa.pub
+        dest: /root/.ssh/
+        owner: root
+        mode: 0600
+      ignore_errors: yes
+
+    - name: Checking DNS
+      command: host -t A ya.ru
+
+    - name: Installing tools
+      apt:
+        package: ['git', 'curl']
+        state: present
+        update_cache: yes
+
+    - name: Installing docker
+      shell: curl -fsSL get.docker.com -o get-docker.sh && chmod +x get-docker.sh && ./get-docker.sh
+      args:
+        warn: false
+
+    - name: Add the current user to docker group
+      user:
+        name: vagrant
+        append: yes
+        groups: docker
