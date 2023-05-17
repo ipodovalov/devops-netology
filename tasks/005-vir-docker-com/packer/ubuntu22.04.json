@@ -1,0 +1,20 @@
+{
+  "builders": [
+    {
+      "type":      "yandex",
+      "token":     "y0_AgAAAAAgcY4rAATuwQAAAADjRVLErRQyLFvVTXWR_Pk_ke8elntmWnk",
+      "folder_id": "b1g7b5tdrrfe2e793itu",
+      "zone":      "ru-central1-b",
+
+      "image_name":        "ubuntu-base",
+      "image_family":      "ubuntu-2204-lts",
+      "image_description": "Ubuntu 22.04 Ivan Podovalov homework image",
+
+      "source_image_family": "ubuntu-2204-lts",
+      "subnet_id":           "e2lnu3od72g2cd2ca7hj",
+      "use_ipv4_nat":        true,
+      "disk_type":           "network-ssd",
+      "ssh_username":        "ubuntu"
+    }
+  ]
+}

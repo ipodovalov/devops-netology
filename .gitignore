@@ -3,3 +3,6 @@
 *.swo
 **/.idea/*
 **/.vagrant/*
+**/.terraform/*
+terraform.tfstate
+terraform.tfstate.backup
