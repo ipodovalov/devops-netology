@@ -1,9 +1,15 @@
 # Домашнее задание "Оркестрация группой Docker контейнеров на примере Docker Compose."
 
 ### Задача 1.
+> Создать образ с помощью Packer.
+> Предоставить скриншот страницы с созданным образом из личного кабинета YandexCloud.
+
 ![demo](./pictures/1.png)
 
 ### Задача 2.
+> Создать ВМ c помощью WebGUI YandexCloud или с помощью Terraform.
+> Предоставить вывод команды terraform apply и страницы свойств, созданной ВМ из личного кабинета YandexCloud.
+
 * 2.1
 ![demo](./pictures/2.png)
 
@@ -103,6 +109,10 @@ internal_ip_address_node01_yandex_cloud = "10.1.2.10"
 ```
 
 ### Задача 3.
+> С помощью Ansible и Docker Compose разверните на виртуальной машине
+> из предыдущего задания систему мониторинга на основе Prometheus/Grafana.
+> Предоставить вывод команды "docker ps"
+
 ```shell
 [centos@node01 ~]$ sudo docker ps
 CONTAINER ID   IMAGE                              COMMAND                  CREATED          STATUS                    PORTS                                                                              NAMES
@@ -116,4 +126,6 @@ e26e97d0d2c7   grafana/grafana:7.4.2              "/run.sh"                46 mi
 ```
 
 ### Задача 4.
+> Предоставить скриншот работающего веб-интерфейса Grafana
+
 ![demo](./pictures/3.png)
