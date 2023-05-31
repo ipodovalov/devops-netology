@@ -22,3 +22,6 @@
 
 * [Домашнее задание "Оркестрация кластером Docker контейнеров
   на примере Docker Swarm."](tasks/005-vi-docker-swarm/README.md)
+
+* [Домашнее задание к занятию "Введение в
+  Terraform"](tasks/006-terraform-intro/README.md)
