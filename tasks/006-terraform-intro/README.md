@@ -20,36 +20,12 @@ on linux_amd64
 "result": "xYIQUS6NFMx6LAxp"
 ```
 
-> Объясните в чем заключаются намеренно допущенные ошибки?
-```shell
-Error: Missing name for resource                                                                            
-                                                                                                            
-  on main.tf line 21, in resource "docker_image":                                                           
-  21: resource "docker_image" {                                                                             
-                                                                                                            
-All resource blocks must have 2 labels (type, name).                                                        
-                                                                                                            
-Error: Invalid resource name                                                                                
-                                                                                                            
-  on main.tf line 26, in resource "docker_container" "1nginx":                                              
-  26: resource "docker_container" "1nginx" {                                                                
-                                                                                                            
-A name must start with a letter or underscore and may contain only letters, digits, underscores, and dashes.
+> Объясните в чем заключаются намеренно допущенные ошибки (**доработано**)?:
 
-Error: Reference to undeclared resource                                                            
-                                                                                                  
- on main.tf line 28, in resource "docker_container" "nginx":                                      
- 28:   name  = "example_${random_password.random_string_fake.resuld}"                             
-                                                                                                  
-A managed resource "random_password" "random_string_fake" has not been declared in the root module.
-
-Error: Unsupported attribute                                                                           
-                                                                                                      
- on main.tf line 28, in resource "docker_container" "nginx":                                          
- 28:   name  = "example_${random_password.random_string.resuld}"                                      
-                                                                                                      
-This object has no argument, nested block, or exported attribute named "resuld". Did you mean "result"?
-```
+* в файле main.tf при описании ресурса docker_image пропущено обязательное поле: имя
+* при описании ресурса docker_container в поле "имя" используется цифра в начале `1nginx`, это ошибка
+* в сабституторе: ` "example_${random_password.random_string_fake.resuld}"` опечатка, `resuld` нет такого, есть `result`
+* там же - `random_string_fake` не существует, есть только `random_string`
 
 > Выполните код. В качестве ответа приложите вывод команды `docker ps`:
 
