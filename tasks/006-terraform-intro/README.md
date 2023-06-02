@@ -62,7 +62,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
 > Объясните, почему при этом не был удален docker образ nginx:latest?
-> Ответ подкрепите выдержкой из документации провайдера.
+> Ответ подкрепите выдержкой из документации провайдера. (**доработано**)
 
 Из-за опции [keep_locally](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/image#keep_locally) не удалился докер имедж.  
 Эта опция указывает на то, что при удалении ресурса docker_image терраформ не будет удалять скачанный с докер-реджистри имедж.
