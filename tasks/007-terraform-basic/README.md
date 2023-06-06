@@ -52,4 +52,6 @@ vpc_static_ips = {
 }                                                   
 ```
 
+### Задание 5.
 
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/blob/623ec03aa5ecd316f27f1cfaac00d9f5a963f227/tasks/007-terraform-basic/02/src/locals.tf))
