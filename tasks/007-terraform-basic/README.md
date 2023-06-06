@@ -27,8 +27,8 @@
 **Ответ:**  
 параметр `preemtible = true` указывает провайдеру [сделать виртуальную машину прерываемой](https://cloud.yandex.ru/docs/compute/operations/vm-create/create-preemptible-vm#create-preemptible), а параметр `core_fraction=5` определяет [уровень производительности vCPU в процентах](https://cloud.yandex.ru/docs/compute/concepts/performance-levels), что в учебных целях не так существенно, зато поможет **сэкономить деньги**.
 
-Скриншоты:
-![yc-vpc-list](./1.png)
+Скриншоты:  
+![yc-vpc-list](./1.png)  
 ![console](./2.png)
 
 ### Задание 2.
