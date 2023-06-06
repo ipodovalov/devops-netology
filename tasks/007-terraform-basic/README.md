@@ -37,4 +37,18 @@
 **Изменений нет**
 
 ### Задание 3.
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/blob/1559deeebe783bd9f9452849e8e8c4a4892160a6/tasks/007-terraform-basic/02/src/main.tf)
+
+### Задание 4.
+> В качестве решения приложите вывод значений ip-адресов команды `terraform output`
+
+**Выполнено** (см. [коммит]()
+```shell
+12:45 $ terraform output                            
+vpc_static_ips = {                                  
+  "netology-develop-platform-db" = "158.160.103.129"
+  "netology-develop-platform-web" = "158.160.61.130"
+}                                                   
+```
+
 

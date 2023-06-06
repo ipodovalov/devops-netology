@@ -25,3 +25,6 @@
 
 * [Домашнее задание к занятию "Введение в
   Terraform"](tasks/006-terraform-intro/README.md)
+
+* [Домашнее задание к занятию "Основы работы с
+  Terraform"](tasks/007-terraform-basics/README.md)
