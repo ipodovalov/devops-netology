@@ -22,7 +22,7 @@
 хотя с точки зрения `terraform plan` код корректный, мы не можем запросить виртуалку
 с одноядерным процессором из-за правил облачного провайдера.
 
-> Ответьте, как в процессе обучения могут пригодиться параметрыpreemptible = true и core_fraction=5 в параметрах ВМ?  
+> Ответьте, как в процессе обучения могут пригодиться параметрыp `reemptible = true` и `core_fraction=5` в параметрах ВМ?  
 
 **Ответ:**  
 параметр `preemtible = true` указывает провайдеру [сделать виртуальную машину прерываемой](https://cloud.yandex.ru/docs/compute/operations/vm-create/create-preemptible-vm#create-preemptible), а параметр `core_fraction=5` определяет [уровень производительности vCPU в процентах](https://cloud.yandex.ru/docs/compute/concepts/performance-levels), что в учебных целях не так существенно, зато поможет **сэкономить деньги**.
