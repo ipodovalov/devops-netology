@@ -42,7 +42,8 @@
 ### Задание 4.
 > В качестве решения приложите вывод значений ip-адресов команды `terraform output`
 
-**Выполнено** (см. [коммит]()
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/blob/7a6133cc4151f710fc1506a3bf57fd14e13c0ca2/tasks/007-terraform-basic/02/src/outputs.tf)
+
 ```shell
 12:45 $ terraform output                            
 vpc_static_ips = {                                  
