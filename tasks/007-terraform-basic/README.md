@@ -42,7 +42,7 @@
 ### Задание 4.
 > В качестве решения приложите вывод значений ip-адресов команды `terraform output`
 
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/blob/7a6133cc4151f710fc1506a3bf57fd14e13c0ca2/tasks/007-terraform-basic/02/src/outputs.tf))
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/7a6133cc4151f710fc1506a3bf57fd14e13c0ca2))
 
 ```shell
 12:45 $ terraform output                            
@@ -54,9 +54,9 @@ vpc_static_ips = {
 
 ### Задание 5.
 
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/blob/623ec03aa5ecd316f27f1cfaac00d9f5a963f227/tasks/007-terraform-basic/02/src/locals.tf))
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/623ec03aa5ecd316f27f1cfaac00d9f5a963f227))
 
 ### Задание 6.
 
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/blob/9d53c185f2e2b086295d1a0d801713255e012b2b/tasks/007-terraform-basic/02/src/vms_platform.tf))
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/9d53c185f2e2b086295d1a0d801713255e012b2b))
 
