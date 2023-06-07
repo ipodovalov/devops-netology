@@ -38,9 +38,12 @@ variable "vms_image_family" {
   description = "Compute image family"
 }
 
-###ssh vars
-variable "vms_ssh_root_key" {
-  type        = string
-  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICbTyippCzofAcC7DjmK4+60la5oKZFsptA7DaicPLSG RDP-WS097-Laptop"
-  description = "ssh-keygen -t ed25519"
+###metadata (ssh, etc) vars
+variable "vms_metadata" {
+  type        = map
+  default = {
+    serial-port-enable = 1,
+    ssh-keys = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICbTyippCzofAcC7DjmK4+60la5oKZFsptA7DaicPLSG RDP-WS097-Laptop"
+  }
+  description = "Compute instances metadata"
 }
