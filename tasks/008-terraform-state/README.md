@@ -14,7 +14,7 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/c50218b0242de0fa9ade5ee69664bf3b4f26a9cd)).
 
 > 3. ВМ из пункта 2.2 должны создаваться после создания ВМ из пункта 2.1.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/2483f203e26d571c5cb12d116ba4af7afc48f3f8)).
 
 > 4. Используйте функцию file в local переменной для считывания ключа `~/.ssh/id_rsa.pub` и его последующего использования в блоке metadata, взятому из ДЗ №2.  
 **НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
