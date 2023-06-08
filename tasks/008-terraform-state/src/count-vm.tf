@@ -1,7 +1,3 @@
-data "yandex_compute_image" "os_image" {
-  family = var.vm_minimal.image_family
-}
-
 resource "yandex_compute_instance" "web-server" {
   count       = 2
   name        = "web-${count.index + 1}"
