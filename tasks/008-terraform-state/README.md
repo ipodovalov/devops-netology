@@ -11,7 +11,7 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/d2eded7b463603cf24cd28780ccaf36d6a06d286)).
 
 > 2. Создайте файл `for_each-vm.tf`. Опишите в нем создание 2 ВМ с именами "main" и "replica" разных по cpu/ram/disk , используя мета-аргумент `for_each loop`. Используйте переменную типа `list(object({ vm_name=string, cpu=number, ram=number, disk=number }))`. При желании внесите в переменную все возможные параметры.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/c50218b0242de0fa9ade5ee69664bf3b4f26a9cd)).
 
 > 3. ВМ из пункта 2.2 должны создаваться после создания ВМ из пункта 2.1.  
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
