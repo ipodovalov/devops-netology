@@ -34,4 +34,8 @@ resource "yandex_compute_instance" "servers" {
     ssh-keys           = var.vm_metadata.ssh-keys
   }
 
+  depends_on = [
+    yandex_compute_instance.web_server
+  ]
+
 }

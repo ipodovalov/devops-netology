@@ -1,4 +1,4 @@
-resource "yandex_compute_instance" "web-server" {
+resource "yandex_compute_instance" "web_server" {
   count       = 2
   name        = "web-${count.index + 1}"
   platform_id = "standard-v1"
