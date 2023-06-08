@@ -28,3 +28,6 @@
 
 * [Домашнее задание к занятию "Основы работы с
   Terraform"](tasks/007-terraform-basic/README.md)
+
+* [Домашнее задание к занятию "Управляющие конструкции
+  в коде Terraform"](tasks/008-terraform-state/README.md)
