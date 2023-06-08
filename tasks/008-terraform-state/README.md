@@ -14,29 +14,29 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/c50218b0242de0fa9ade5ee69664bf3b4f26a9cd)).
 
 > 3. ВМ из пункта 2.2 должны создаваться после создания ВМ из пункта 2.1.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > 4. Используйте функцию file в local переменной для считывания ключа `~/.ssh/id_rsa.pub` и его последующего использования в блоке metadata, взятому из ДЗ №2.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > 5. Инициализируйте проект, выполните код.
-**Выполнено**
+**НЕВыполнено**
 
 ### Задание 3.
 
 > 1. Создайте 3 одинаковых виртуальных диска, размером 1 Гб с помощью ресурса `yandex_compute_disk` и мета-аргумента `count` в файле `disk_vm.tf`.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > 2. Создайте в том же файле одну ВМ c именем "storage". Используйте блок dynamic `secondary_disk{..}` и мета-аргумент `for_each` для подключения созданных вами дополнительных дисков.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 ### Задание 4.
 
 > 1. В файле `ansible.tf` создайте `inventory-файл` для `ansible`. Используйте функцию `tepmplatefile` и файл-шаблон для создания `ansible` inventory-файла из лекции. Готовый код возьмите из демонстрации к лекции [demonstration2](https://github.com/netology-code/ter-homeworks/tree/main/demonstration2). Передайте в него в качестве переменных группы виртуальных машин из задания 2.1, 2.2 и 3.2.(т.е. 5 ВМ).  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > 2. Инвентарь должен содержать 3 группы `[webservers]`, `[databases]`, `[storage]` и быть динамическим, т.е. обработать как группу из 2-х ВМ так и 999 ВМ.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > 3. Выполните код. Приложите скриншот получившегося файла.  
 ![screenshot](./2.png)  
