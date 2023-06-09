@@ -41,13 +41,3 @@ variable "vm_minimal" {
     image_family = "ubuntu-2004-lts"
   }
 }
-
-###metadata (ssh, etc) vars
-variable "vm_metadata" {
-  type        = map
-  default = {
-    serial-port-enable = 1,
-    ssh-keys = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICbTyippCzofAcC7DjmK4+60la5oKZFsptA7DaicPLSG RDP-WS097-Laptop"
-  }
-  description = "Compute instances metadata"
-}

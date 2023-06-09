@@ -19,10 +19,6 @@ resource "yandex_compute_instance" "web_server" {
     subnet_id = yandex_vpc_subnet.develop.id
     nat       = true
   }
-
-  metadata = {
-    serial-port-enable = var.vm_metadata.serial-port-enable
-    ssh-keys           = var.vm_metadata.ssh-keys
-  }
+  metadata = local.ssh_keys_and_serial_port
 
 }

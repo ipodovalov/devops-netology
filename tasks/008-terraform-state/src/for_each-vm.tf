@@ -1,10 +1,3 @@
-locals {
-  virtual_machines = {
-    "vm1" = { vm_name = "main", vm_cpu=2, vm_ram=1, vm_disk_size=10, vm_core_fraction=5 },
-    "vm2" = { vm_name = "replica", vm_cpu=2, vm_ram=1, vm_disk_size=15, vm_core_fraction=20 }
-  }
-}
-
 resource "yandex_compute_instance" "servers" {
 
   for_each = local.virtual_machines
@@ -29,10 +22,7 @@ resource "yandex_compute_instance" "servers" {
     subnet_id = yandex_vpc_subnet.develop.id
     nat       = true
   }
-  metadata = {
-    serial-port-enable = var.vm_metadata.serial-port-enable
-    ssh-keys           = var.vm_metadata.ssh-keys
-  }
+  metadata = local.ssh_keys_and_serial_port
 
   depends_on = [
     yandex_compute_instance.web_server
