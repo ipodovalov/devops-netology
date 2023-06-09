@@ -17,10 +17,10 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/2483f203e26d571c5cb12d116ba4af7afc48f3f8)).
 
 > 4. Используйте функцию file в local переменной для считывания ключа `~/.ssh/id_rsa.pub` и его последующего использования в блоке metadata, взятому из ДЗ №2.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/f7da8dc49828cdc2dca748ee83b04ee55b2b51b9)).
 
 > 5. Инициализируйте проект, выполните код.
-**НЕВыполнено**
+**Выполнено**
 
 ### Задание 3.
 
