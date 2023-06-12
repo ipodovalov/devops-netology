@@ -7,11 +7,11 @@ resource "yandex_compute_disk" "empty_disk" {
   block_size = 4096
 }
 
-resource "yandex_compute_instance" "disk-vm" {
+resource "yandex_compute_instance" "storage_server" {
 
   depends_on = [yandex_compute_disk.empty_disk]
 
-  name        = "netology-disk-vm"
+  name        = "storage"
   platform_id = "standard-v1"
 
   resources {

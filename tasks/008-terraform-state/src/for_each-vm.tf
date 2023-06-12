@@ -1,4 +1,4 @@
-resource "yandex_compute_instance" "servers" {
+resource "yandex_compute_instance" "db_server" {
 
   for_each = local.virtual_machines
 
