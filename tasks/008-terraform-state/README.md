@@ -28,7 +28,7 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/254cb4391e13699f6397931471ec8e18ab6ddebd)).
 
 > 2. Создайте в том же файле одну ВМ c именем "storage". Используйте блок dynamic `secondary_disk{..}` и мета-аргумент `for_each` для подключения созданных вами дополнительных дисков.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/9b9517cc32073e08c949b33bbdaea4cd4a4a113a)).
 
 ### Задание 4.
 
