@@ -39,5 +39,15 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/9e42f84adca25b17163ab48d1187802189f7cad2)).
 
 > 3. Выполните код. Приложите скриншот получившегося файла.  
-![screenshot](./2.png)  
-
+```shell
+[webservers]                          
+web-1   ansible_host=130.193.50.81    
+web-2   ansible_host=158.160.62.162   
+                                      
+[databases]                           
+main   ansible_host=158.160.107.147   
+replica   ansible_host=158.160.106.180
+                                      
+[storage]                             
+storage   ansible_host=158.160.46.87  
+```
