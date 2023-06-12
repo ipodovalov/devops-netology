@@ -33,10 +33,10 @@
 ### Задание 4.
 
 > 1. В файле `ansible.tf` создайте `inventory-файл` для `ansible`. Используйте функцию `tepmplatefile` и файл-шаблон для создания `ansible` inventory-файла из лекции. Готовый код возьмите из демонстрации к лекции [demonstration2](https://github.com/netology-code/ter-homeworks/tree/main/demonstration2). Передайте в него в качестве переменных группы виртуальных машин из задания 2.1, 2.2 и 3.2.(т.е. 5 ВМ).  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/9e42f84adca25b17163ab48d1187802189f7cad2)).
 
 > 2. Инвентарь должен содержать 3 группы `[webservers]`, `[databases]`, `[storage]` и быть динамическим, т.е. обработать как группу из 2-х ВМ так и 999 ВМ.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/9e42f84adca25b17163ab48d1187802189f7cad2)).
 
 > 3. Выполните код. Приложите скриншот получившегося файла.  
 ![screenshot](./2.png)  
