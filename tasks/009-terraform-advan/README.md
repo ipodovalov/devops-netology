@@ -9,10 +9,10 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/454a7a2)).
 
 > 3. Добавьте в файл cloud-init.yml установку nginx.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/819497e)).
 
 > 4. Предоставьте скриншот подключения к консоли и вывод команды `sudo nginx -t`.  
-**НЕВыполнено**   
+**Выполнено**   
 ![demo](./1.png)
 
 ### Задание 2.
