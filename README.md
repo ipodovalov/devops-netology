@@ -31,3 +31,6 @@
 
 * [Домашнее задание к занятию "Управляющие конструкции
   в коде Terraform"](tasks/008-terraform-state/README.md)
+
+* [Домашнее задание к занятию "Продвинутые методы
+  работы с Terraform"](tasks/009-terraform-advan/README.md)
