@@ -49,6 +49,6 @@ module "test-vm" {
 data "template_file" "cloudinit" {
  template = file("./cloud-init.yml")
  vars = {
-   ssh_keys = "ubuntu:${file("~/.ssh/id_ed25519.pub")}"
+   ssh_keys = "${file("~/.ssh/id_ed25519.pub")}"
  }
 }
