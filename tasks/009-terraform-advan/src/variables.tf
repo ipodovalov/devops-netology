@@ -30,8 +30,3 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
-
-variable "public_key" {
-  type    = string
-  default = ""
-}
