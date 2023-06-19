@@ -27,7 +27,7 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/c8c19d3)).
 
 > 4. Сгенерируйте документацию к модулю с помощью terraform-docs.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/e7451fb)).
 
 ### Задание 3.
 
