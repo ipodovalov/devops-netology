@@ -21,7 +21,7 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/7ecc2d4)).
 
 > 2. Модуль должен возвращать значения `vpc.id` и `subnet.id`  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/4bbfe1e)).
 
 > 3. Замените ресурсы `yandex_vpc_network` и `yandex_vpc_subnet`, созданным модулем.  
 **НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
