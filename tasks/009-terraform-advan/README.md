@@ -24,7 +24,7 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/4bbfe1e)).
 
 > 3. Замените ресурсы `yandex_vpc_network` и `yandex_vpc_subnet`, созданным модулем.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/c8c19d3)).
 
 > 4. Сгенерируйте документацию к модулю с помощью terraform-docs.  
 **НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
