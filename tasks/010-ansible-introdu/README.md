@@ -20,22 +20,22 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/3171c52)).
 
 > Повторите запуск `playbook` на окружении `prod.yml`. Убедитесь, что выдаются корректные значения для всех хостов.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > При помощи `ansible-vault` зашифруйте факты в `group_vars/deb` и `group_vars/el` с паролем netology.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > Запустите `playbook` на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь в работоспособности.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > Посмотрите при помощи `ansible-doc` список плагинов для подключения. Выберите подходящий для работы на `control node`.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > В `prod.yml` добавьте новую группу хостов с именем `local`, в ней разместите `localhost` с необходимым типом подключения.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > Запустите `playbook` на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь, что факты `some_fact` для каждого из хостов определены из верных `group_vars`.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
 > Заполните `README.md` ответами на вопросы. Сделайте `git push` в ветку master. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым `playbook` и заполненным `README.md`.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
