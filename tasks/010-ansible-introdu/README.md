@@ -3,7 +3,7 @@
 ### Основная часть.
 
 > Попробуйте запустить playbook на окружении из test.yml, зафиксируйте значение, которое имеет факт some_fact для указанного хоста при выполнении playbook.
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/5746581)).
 
 > Найдите файл с переменными (group_vars), в котором задаётся найденное в первом пункте значение, и поменяйте его на all default fact.
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).

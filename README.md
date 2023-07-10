@@ -34,3 +34,6 @@
 
 * [Домашнее задание к занятию "Продвинутые методы
   работы с Terraform"](tasks/009-terraform-advan/README.md)
+
+* [Домашнее задание к занятию "Введение в
+  Ansible"](tasks/010-ansible-introdu/README.md)
