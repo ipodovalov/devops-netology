@@ -6,7 +6,7 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/5746581)).
 
 > Найдите файл с переменными (`group_vars`), в котором задаётся найденное в первом пункте значение, и поменяйте его на `all default fact`.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/1852234)).
 
 > Воспользуйтесь подготовленным (используется `docker`) или создайте собственное окружение для проведения дальнейших испытаний.  
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
