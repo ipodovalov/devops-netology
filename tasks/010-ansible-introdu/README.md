@@ -13,7 +13,8 @@
 ![demo](./images/1.png)
 
 > Проведите запуск `playbook` на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/a455b7c)).
+![demo](./images/2.png)
 
 > Добавьте факты в `group_vars` каждой из групп хостов так, чтобы для `some_fact` получились значения: для `deb` — `deb default fact`, для `el` — `el default fact`.  
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
