@@ -17,7 +17,7 @@
 ![demo](./images/2.png)
 
 > Добавьте факты в `group_vars` каждой из групп хостов так, чтобы для `some_fact` получились значения: для `deb` — `deb default fact`, для `el` — `el default fact`.  
-**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/3171c52)).
 
 > Повторите запуск `playbook` на окружении `prod.yml`. Убедитесь, что выдаются корректные значения для всех хостов.  
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
