@@ -8,3 +8,23 @@
       - name: Print fact
         debug:
           msg: "{{ some_fact }}"
+      - name: Save os-release in special log on control hosts
+        shell:
+          /usr/bin/cat /etc/os-release > /tmp/os-release
+
+  - name: OS-specific tasks
+    hosts: el
+    tasks:
+      - name: Install vim
+        yum:
+          name: vim
+          state: latest
+
+  - name: OS-specific tasks
+    hosts: deb
+    tasks:
+      - name: Install vim
+        apt:
+          name: vim
+          update_cache: yes
+          state: latest
