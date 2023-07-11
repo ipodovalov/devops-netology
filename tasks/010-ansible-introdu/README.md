@@ -41,4 +41,4 @@
 ![demo](./images/5.png)
 
 > 12. Заполните `README.md` ответами на вопросы. Сделайте `git push` в ветку master. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым `playbook` и заполненным `README.md`.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/49d59b8)).
