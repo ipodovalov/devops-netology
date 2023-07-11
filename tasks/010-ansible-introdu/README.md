@@ -24,10 +24,11 @@
 ![demo](./images/3.png)
 
 > При помощи `ansible-vault` зашифруйте факты в `group_vars/deb` и `group_vars/el` с паролем netology.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/21dac58)).
 
 > Запустите `playbook` на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь в работоспособности.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/21dac58)).
+![demo](./images/4.png)
 
 > Посмотрите при помощи `ansible-doc` список плагинов для подключения. Выберите подходящий для работы на `control node`.  
 **НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
