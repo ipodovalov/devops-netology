@@ -8,9 +8,6 @@
       - name: Print fact
         debug:
           msg: "{{ some_fact }}"
-      - name: Save os-release in special log on control hosts
-        shell:
-          /usr/bin/cat /etc/os-release > /tmp/os-release
 
   - name: OS-specific tasks
     hosts: el
