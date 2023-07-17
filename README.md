@@ -37,3 +37,6 @@
 
 * [Домашнее задание к занятию "Введение в
   Ansible"](tasks/010-ansible-introdu/README.md)
+
+* [Домашнее задание к занятию "Работа с
+  Playbook"](tasks/011-ansible-playboo/README.md)
