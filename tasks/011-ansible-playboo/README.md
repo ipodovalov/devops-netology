@@ -3,7 +3,7 @@
 ### Основная часть.
 
 > 1. Подготовьте свой `inventory`-файл `prod.yml`.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/856115c)).
 
 > 2. Допишите `playbook`: нужно сделать ещё один `play`, который устанавливает и настраивает [vector](https://vector.dev/).  
 **НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
