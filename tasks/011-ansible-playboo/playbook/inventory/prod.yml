@@ -3,3 +3,8 @@ clickhouse:
   hosts:
     clickhouse-01:
       ansible_host: 158.160.10.213
+
+vector:
+  hosts:
+    vector-01:
+      ansible_host: 51.250.96.211
