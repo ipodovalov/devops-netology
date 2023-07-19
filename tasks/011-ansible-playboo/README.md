@@ -15,23 +15,20 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/0aee023)).
 
 > 5. Запустите `ansible-lint` `site.yml` и исправьте ошибки, если они есть.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/0aee023)).
 
 > 6. Попробуйте запустить playbook на этом окружении с флагом `--check`.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/0aee023)).
 
 > 7. Запустите playbook на `prod.yml` окружении с флагом `--diff`. Убедитесь, что изменения на системе произведены.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/0aee023)).
 
 > 8. Повторно запустите `playbook` с флагом `--diff` и убедитесь, что `playbook` идемпотентен.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/0aee023)).
 
 > 9. Подготовьте `README.md`-файл по своему `playbook`. В нём должно быть описано: что делает `playbook`, какие у него есть параметры и теги. Пример качественной документации `ansible playbook` по [ссылке](https://github.com/opensearch-project/ansible-playbook).  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/0aee023)).
 
 > 10. Готовый playbook выложите в свой репозиторий, поставьте тег `08-ansible-02-playbook` на фиксирующий коммит, в ответ предоставьте ссылку на него.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
-
-
-![demo](./images/5.png)
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
 
