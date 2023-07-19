@@ -9,10 +9,10 @@
 **Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/376ff02)).
 
 > 3. При создании `tasks` рекомендую использовать модули: `get_url`, `template`, `unarchive`, `file`.  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/0aee023)).
 
 > 4. `Tasks` должны: скачать дистрибутив нужной версии, выполнить распаковку в выбранную директорию, установить [vector](https://vector.dev/).  
-**НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
+**Выполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/0aee023)).
 
 > 5. Запустите `ansible-lint` `site.yml` и исправьте ошибки, если они есть.  
 **НЕВыполнено** (см. [коммит](https://github.com/ipodovalov/devops-netology/commit/)).
