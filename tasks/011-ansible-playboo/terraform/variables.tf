@@ -38,6 +38,6 @@ variable "vm_minimal" {
     cores = 2,
     memory = 1,
     core_fraction = 5,
-    image_family = "ubuntu-2204-lts"
+    image_family = "centos-7"
   }
 }
