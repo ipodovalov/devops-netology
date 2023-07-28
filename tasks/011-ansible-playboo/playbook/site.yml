@@ -41,6 +41,12 @@
   remote_user: centos
   become: true
   become_method: sudo
+  handlers:
+    - name: Restart Vector service
+      become: true
+      ansible.builtin.service:
+        name: vector
+        state: restarted
   tasks:
     - name: Download Vector
       ansible.builtin.get_url:
@@ -52,6 +58,12 @@
         name:
           - "/tmp/vector-latest.rpm"
         state: present
+
+    - name: Deploy Vector configuration
+      ansible.builtin.template:
+        src: vector.conf.j2
+        dest: /etc/vector/vector.conf
+      notify: Restart Vector service
 
     - name: Start Vector service
       ansible.builtin.service:
