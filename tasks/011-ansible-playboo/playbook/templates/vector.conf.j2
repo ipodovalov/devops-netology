@@ -1,9 +1,23 @@
 # vector.conf.j2
 
+[global]
+data_dir = {{ data_dir }}
+log_level = {{ log_level }}
+
 [sources]
-  [sources.my_source]
-  type = "file"
+{% for source in sources %}
+[[sources.{{ source.name }}]]
+path = "{{ source.path }}"
+type = "{{ source.type }}"
+{%- endfor %}
 
 [sinks]
-  [sinks.my_sink]
-  type = "stdout"
+{% for sink in sinks %}
+[[sinks.{{ sink.name }}]]
+path = "{{ sink.path }}"
+type = "{{ sink.type }}"
+inputs = {% for input in sink.inputs %}
+  "{{ input }}"
+{%- if not loop.last %},{% endif %}
+{%- endfor %}
+{%- endfor %}

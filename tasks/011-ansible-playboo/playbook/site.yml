@@ -60,6 +60,27 @@
         state: present
 
     - name: Deploy Vector configuration
+      vars:
+        log_level: debug
+        data_dir: "/var/data/vector/"
+        sources:
+          - name: app_1_source
+            type: file
+            path: "/var/log/app_1.log"
+          - name: app_2_source
+            type: file
+            path: "/var/log/app_2.log"
+        sinks:
+          - name: log
+            type: console
+            path: "/var/log/app_1.log"
+            inputs:
+              - app_1_source
+          - name: file
+            type: file
+            path: "/var/log/vector/app_2_transformed.log"
+            inputs:
+              - app_2_source
       ansible.builtin.template:
         src: vector.conf.j2
         dest: /etc/vector/vector.conf
